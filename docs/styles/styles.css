@@ -9,6 +9,11 @@ body {
   /* 3 */ "Helvetica Neue", sans-serif;
 }
 
+a {
+  font-weight: bold;
+  text-decoration: none;
+}
+
 #content {
   position: relative;
   width: 800px;
