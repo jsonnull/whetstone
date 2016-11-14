@@ -1,6 +1,6 @@
 import test from 'ava'
 import 'babel-register'
-import { modify } from '../src/modify'
+import { modify } from '../src/index'
 
 test('make modifications', t => {
   const script = 'let x = 3;'
