@@ -1,0 +1,55 @@
+* { 
+  box-sizing: border-box
+}
+
+body {
+  font-family:
+  /* 1 */ -apple-system, BlinkMacSystemFont,
+  /* 2 */ "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+  /* 3 */ "Helvetica Neue", sans-serif;
+}
+
+#content {
+  position: relative;
+  width: 800px;
+  margin: 0 auto 0;
+}
+
+#editor {
+  position: absolute;
+  width: 500px;
+  height: 400px;
+  border: 1px solid #ccc;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+#whetstone {
+  position: absolute;
+  width: 300px;
+  height: 400px;
+  left: 500px;
+  border: 1px solid #ccc;
+  border-left: 0;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.reference {
+  position: absolute;
+  left: 5px;
+  height: 16px;
+  line-height: 16px;
+  font-size: 14px;
+}
+  .reference div {
+    display: inline-block;
+  }
+  .reference-name {
+    font-size: 11px;
+    border-radius: 2px;
+    padding: 0 3px;
+    background-color: #eee;
+    color: #777;
+    min-width: 30px;
+  }

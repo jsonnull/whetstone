@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+<title>Whetstone</title>
+<link rel="stylesheet" href="/styles/styles.css" />
+<body>
+<div id="content">
+<h1>Whetstone</h1>
+<p>Create dynamic interfaces to interact with JavaScript source code.</p>
+<div id="editor">/*
+ * This demo uses Whetstone to retrieve values
+ * from the source and make them available for
+ * editing
+ *
+ * Have fun!
+ */
+let x = 3
+
+x = 5
+
+let message = "yay!"
+
+for (var i = 0; i < 10; i++) {
+    console.log(message)
+}</div>
+<div id="whetstone"></div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.2.5/ace.js"></script>
+<script src="build/bundle.js"></script>
+</body>
+</html>
