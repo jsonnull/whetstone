@@ -2,6 +2,8 @@
 
 Create dynamic interfaces to interact with JavaScript source code.
 
+[![Build Status](https://travis-ci.org/jsonnull/whetstone.svg?branch=master)](https://travis-ci.org/jsonnull/whetstone)
+
 ```js
 import { modify } from 'whetstone-core'
 import { transform } from 'whetstone-transform'
