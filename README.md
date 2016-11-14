@@ -32,7 +32,7 @@ changes instantaneous, and persist results to your codebase.
 
 Whetstone's core revolves around References (pointers to values in source code)
 and the `modify` function exported by
-[whetstone-core](/packages/whestone-core).
+[whetstone-core](/packages/whetstone-core).
 
 To generate References, use
 [whetstone-transform](/packages/whetstone-transform), which uses Babel under
