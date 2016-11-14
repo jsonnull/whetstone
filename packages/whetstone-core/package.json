@@ -1,0 +1,23 @@
+{
+  "name": "whetstone-core",
+  "version": "0.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsonnull/whetstone.git"
+  },
+  "author": "Jason Nall <jsonnull@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jsonnull/whetstone/issues"
+  },
+  "homepage": "https://github.com/jsonnull/whetstone#readme",
+  "dependencies": {
+    "invariant": "^2.2.1",
+    "split-lines": "^1.1.0"
+  }
+}
