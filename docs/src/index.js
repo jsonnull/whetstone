@@ -39,7 +39,6 @@ function renderReference (ref) {
 
     control = h('div', increment, decrement)
   } else if (type == 'string') {
-    console.log('string')
     let uppercase = h('input', {
       type: 'button',
       value: 'upper',
